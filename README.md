@@ -11,7 +11,13 @@ If the requested file is not present, the server will send an HTTP "404 Not Foun
 
 2. Run the server program 
 > python Multithreadedserver.py
-3. From another host, open a browser and provide the provided URL (e.g. http://128.238.251.26:6789/HelloWorld.html) 
+3. From another host, open a browser and provide the provided URL 
+
+(e.g. http://128.238.251.26:6789/HelloWorld.html) 
 
 Note: You will need to replace the port number with the port number provided in the server code 
 
+# Output 
+Once the user enters the URL of the webpage desired, the program will retrieve and display the HTML file. 
+
+If the file is not present, the browser will display a "404 Not Found" page 
